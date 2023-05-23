@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: linear-gradient(111.39deg, #E9F3FD 12.37%, rgba(229, 229, 254, 0.5) 53.12%, #E9F3FD 89.83%);
+    backdrop-filter: blur(5px);
+    overflow-x: hidden;
+}
+.container {
+    width: 1318px;
+    margin: 0 auto;
+}
+.main {
+    margin: 30px auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 81px;
+    margin-left: 40px;
+}
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 536px;
+    margin-top: 30px;
+}
+li {
+    list-style: none;
+}
+.nav_menu li a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.nav_menu li a:hover {
+    color: #DF1616;
+}
+.main_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+    margin-top: 15px;
+}
+.search {
+    background: #EC6083;
+    border-radius: 20px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+.cart {
+    background: #A18EE5;
+    border-radius: 20px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+.user {
+    background: #212135;
+    border-radius: 20px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+.main_content {
+    display: flex;
+    justify-content: space-between;
+}
+.info_text h1 {
+    font-weight: 700;
+    font-size: 96px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 100px;
+    width: 666px;
+}
+.info_text h1 span {
+    color: #EC6083;
+}
+.info_text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.get_started {
+    width: 230px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 20px 0;
+    background: #EC6083;
+    border-radius: 40px;
+    border: none;
+    margin-top: 40px;
+}
+.text_content {
+    text-align: center;
+    margin-top: 150px;
+}
+.text_content p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #EC6083;
+}
+.text_content h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    width: 444px;
+    margin: 10px auto;
+}
+.list_of_benefits {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.benefit_card h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+}
+.benefit_card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    width: 227px;
+    margin: 15px auto;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.text_content_menu .red_text {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #EC6083;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text_content_menu h2 {
+    width: 470px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 5px;
+}
+.back_next button {
+    width: 55px;
+    height: 55px;
+    background-color: #CFCFCF;
+    border-radius: 100%;
+    border: none;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+.back_next button:hover {
+    background-color: #EC6083;
+    box-shadow: 0px 0px 10px 0px #EC6083;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    width: 1240px;
+    margin: 80px auto;
+}
+.card {
+    background: linear-gradient(152.79deg, #E9F3FD 12.85%, #E8E8FF 49.53%, #E9F3FD 89.41%);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    border-radius: 60px;
+    margin: 0px 20px;
+}
+.card .photo img {
+    width: 350px;
+    height: 323px;
+    border-radius: 60px;
+}
+.card .info p {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px auto;
+    width: 272px;
+    height: 73px;
+}
+.card .info h4 {
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 1);
+    margin: 20px auto;
+    width: 272px;
+}
+.buy {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.buy .price_card {
+    margin-bottom: 30px;
+}
+.buy .price_card p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.buy_button button {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(33, 33, 53, 1);
+    border: none;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+.buy_button button:hover {
+    box-shadow: 0px 0px 10px 0px rgba(33, 33, 53, 1);
+}
